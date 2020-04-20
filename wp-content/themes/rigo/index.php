@@ -18,6 +18,8 @@ $args = wpas_get_view_data();
             <li><a href="<?php echo get_site_url(); ?>/wp-admin">Login into the WordPress admin dashboard.</a></li>
             <li>This is a endpoint: GET: <a href="<?php echo get_site_url(); ?>/wp-json/sample_api/v1/courses">/courses</a></li>
             <li>This is a endpoint: GET: <a href="<?php echo get_site_url(); ?>/wp-json/sample_api/v1/fitness">/fitness</a></li>
+            <li>This is a endpoint: GET: <a href="<?php echo get_site_url(); ?>/wp-json/sample_api/v1/spiritual">/spiritual</a></li>
+            <li>This is a endpoint: GET: <a href="<?php echo get_site_url(); ?>/wp-json/sample_api/v1/inspirational">/inspirational</a></li>
             <li>You can download the <a href="https://www.getpostman.com/apps">postman client here.</a></li>
         </ul>
         <p style="text-align: center; margin-top: 100px;"><small>Made with <span style="color: red;">♥️</span>at <a target="_blank" href="https://4geeksacademy.com">4Geeks Academy</a></small></p>

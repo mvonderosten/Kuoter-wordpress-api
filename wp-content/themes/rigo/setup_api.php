@@ -15,4 +15,5 @@ $api = new \WPAS\Controller\WPASAPIController([
 */
 $api->get([ 'path' => '/courses', 'controller' => 'SampleController:getDraftCourses' ]); 
 $api->get([ 'path' => '/fitness', 'controller' => 'SampleController:getDraftFitness' ]); 
-
+$api->get([ 'path' => '/spiritual', 'controller' => 'SampleController:getDraftSpiritual' ]); 
+$api->get([ 'path' => '/inspirational', 'controller' => 'SampleController:getDraftInspirational' ]); 

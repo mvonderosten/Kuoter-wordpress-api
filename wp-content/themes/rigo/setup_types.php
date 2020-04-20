@@ -10,4 +10,6 @@ $typeManager = new \WPAS\Types\PostTypesManager([ 'namespace' => 'Rigo\\Types\\'
 */
 $typeManager->newType(['type' => 'course', 'class' => 'Course'])->register();
 $typeManager->newType(['type' => 'fitness', 'class' => 'Fitness'])->register();
+$typeManager->newType(['type' => 'spiritual', 'class' => 'Spiritual'])->register();
+$typeManager->newType(['type' => 'inspirational', 'class' => 'Inspirational'])->register();
 
